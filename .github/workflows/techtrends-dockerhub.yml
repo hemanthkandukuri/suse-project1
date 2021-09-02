@@ -43,7 +43,7 @@ jobs:
         with:
           # setting context to techtrends folder
           context: techtrends
-          file: ./Dockerfile
+          file: ./techtrends/Dockerfile
           platforms: linux/amd64
           push: true
           tags: hemanthkandukuri/techtrends:latest
