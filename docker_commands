@@ -1,0 +1,45 @@
+## Docker commands used to build the application 
+# TODO: insert the docker build command
+docker build -t techtrends:v1.0.0 .
+# output of docker images after building image of techtrends:v1.0.0
+REPOSITORY      TAG       IMAGE ID       CREATED             SIZE
+techtrends      v1.0.0    e50a579ad951   About an hour ago   920MB
+
+## Docker commands used to run the application
+# TODO: insert the docker run command
+docker run -d -p 7111:3111 techtrends:v1.0.0
+
+# output of docker ps after running techtrends:v1.0.0
+#   CONTAINER ID   IMAGE               COMMAND           CREATED              STATUS              PORTS                                       NAMES
+#   cdafac61814f   techtrends:v1.0.0   "python app.py"   About a minute ago   Up About a minute   0.0.0.0:7111->3111/tcp, :::7111->3111/tcp   happy_grothendieck
+
+## Docker commands used to get the application logs
+# TODO: insert the docker logs command
+docker logs cdafac61814f
+
+# cdafac61814f - is the container id.
+
+## Logs from the container running the TechTrends application
+# TODO: paste logs from the Docker container 
+* Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+[2021-09-02 11:19:28,993] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-09-02 11:20:04,599] {app.py:41} INFO - Launching home page successful
+[2021-09-02 11:20:04,617] {_internal.py:122} INFO - 172.17.0.1 - - [02/Sep/2021 11:20:04] "GET / HTTP/1.1" 200 -
+[2021-09-02 11:20:04,835] {_internal.py:122} INFO - 172.17.0.1 - - [02/Sep/2021 11:20:04] "GET /static/css/main.css HTTP/1.1" 200 -
+[2021-09-02 11:20:05,180] {_internal.py:122} INFO - 172.17.0.1 - - [02/Sep/2021 11:20:05] "GET /favicon.ico HTTP/1.1" 404 -
+[2021-09-02 11:20:29,862] {app.py:41} INFO - Launching home page successful
+[2021-09-02 11:20:29,864] {_internal.py:122} INFO - 172.17.0.1 - - [02/Sep/2021 11:20:29] "GET / HTTP/1.1" 200 -
+[2021-09-02 11:20:31,323] {app.py:77} INFO - An existing article is retrieved. post_id=1 & Title=2020 CNCF Annual Report
+[2021-09-02 11:20:31,327] {_internal.py:122} INFO - 172.17.0.1 - - [02/Sep/2021 11:20:31] "GET /1 HTTP/1.1" 200 -
+[2021-09-02 11:20:34,049] {app.py:77} INFO - An existing article is retrieved. post_id=2 & Title=KubeCon + CloudNativeCon 2021
+[2021-09-02 11:20:34,050] {_internal.py:122} INFO - 172.17.0.1 - - [02/Sep/2021 11:20:34] "GET /2 HTTP/1.1" 200 -
+[2021-09-02 11:21:49,991] {app.py:77} INFO - An existing article is retrieved. post_id=4 & Title=CNCF Cloud Native Interactive Landscape
+[2021-09-02 11:21:49,992] {_internal.py:122} INFO - 172.17.0.1 - - [02/Sep/2021 11:21:49] "GET /4 HTTP/1.1" 200 -
+[2021-09-02 11:21:53,188] {app.py:77} INFO - An existing article is retrieved. post_id=6 & Title=Kubernetes Certification
+[2021-09-02 11:21:53,189] {_internal.py:122} INFO - 172.17.0.1 - - [02/Sep/2021 11:21:53] "GET /6 HTTP/1.1" 200 -
+[2021-09-02 11:21:56,241] {app.py:77} INFO - An existing article is retrieved. post_id=5 & Title=CNCF Cloud Native Definition v1.0
+[2021-09-02 11:21:56,242] {_internal.py:122} INFO - 172.17.0.1 - - [02/Sep/2021 11:21:56] "GET /5 HTTP/1.1" 200 -

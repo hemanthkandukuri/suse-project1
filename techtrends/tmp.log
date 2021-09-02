@@ -1,0 +1,100 @@
+[2021-08-26 15:15:42,186] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-08-26 15:15:49,810] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 15:15:49] "GET / HTTP/1.1" 200 -
+[2021-08-26 15:15:49,981] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 15:15:49] "GET /static/css/main.css HTTP/1.1" 200 -
+[2021-08-26 15:15:50,225] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 15:15:50] "GET /favicon.ico HTTP/1.1" 404 -
+[2021-08-26 15:18:09,241] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 15:18:09] "GET /create HTTP/1.1" 200 -
+[2021-08-26 15:18:13,367] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 15:18:13] "POST /create HTTP/1.1" 200 -
+[2021-08-26 15:18:45,664] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 15:18:45] "GET / HTTP/1.1" 200 -
+[2021-08-26 15:20:06,019] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-08-26 15:20:19,736] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-08-26 15:31:00,250] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-08-26 15:34:57,156] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-08-26 16:55:03,824] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-08-26 17:30:48,802] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:30:48] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:30:50,937] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:30:50] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:30:50,941] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:30:50] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:30:50,948] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:30:50] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:30:50,953] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:30:50] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:30:51,117] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:30:51] "GET /static/css/main.css HTTP/1.1" 200 -
+[2021-08-26 17:30:51,119] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:30:51] "GET /static/css/main.css HTTP/1.1" 200 -
+[2021-08-26 17:31:16,521] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:31:16] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:31:22,931] {app.py:51} INFO - Status request successful
+[2021-08-26 17:31:22,932] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:31:22] "GET /status HTTP/1.1" 200 -
+[2021-08-26 17:31:31,340] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:31:31] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:31:54,666] {app.py:62} INFO - Metrics request successful
+[2021-08-26 17:31:54,667] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:31:54] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:32:26,950] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-08-26 17:32:31,168] {app.py:62} INFO - Metrics request successful
+[2021-08-26 17:32:31,169] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:32:31] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:32:32,271] {app.py:62} INFO - Metrics request successful
+[2021-08-26 17:32:32,274] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:32:32] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:32:33,625] {app.py:62} INFO - Metrics request successful
+[2021-08-26 17:32:33,626] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:32:33] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:32:34,785] {app.py:62} INFO - Metrics request successful
+[2021-08-26 17:32:34,785] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:32:34] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:32:46,386] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:32:46] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:32:46,812] {app.py:51} INFO - Status request successful
+[2021-08-26 17:32:46,812] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:32:46] "GET /status HTTP/1.1" 200 -
+[2021-08-26 17:32:50,419] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:32:50] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:32:50,828] {app.py:62} INFO - Metrics request successful
+[2021-08-26 17:32:50,829] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:32:50] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:32:54,435] {app.py:62} INFO - Metrics request successful
+[2021-08-26 17:32:54,435] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:32:54] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:37:57,311] {app.py:62} INFO - Metrics request successful
+[2021-08-26 17:37:57,312] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:37:57] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:37:59,892] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:37:59] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:38:04,287] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:38:04] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:38:04,709] {app.py:62} INFO - Metrics request successful
+[2021-08-26 17:38:04,709] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:38:04] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:44:44,257] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-08-26 17:45:38,685] {app.py:63} INFO - Metrics request successful
+[2021-08-26 17:45:38,686] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:45:38] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:45:53,001] {app.py:63} INFO - Metrics request successful
+[2021-08-26 17:45:53,003] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:45:53] "GET /metrics HTTP/1.1" 200 -
+[2021-08-26 17:46:44,007] {app.py:41} INFO - Launching home page successful
+[2021-08-26 17:48:56,935] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:48:56] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:49:05,944] {app.py:41} INFO - Launching home page successful
+[2021-08-26 17:49:05,946] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:49:05] "GET / HTTP/1.1" 200 -
+[2021-08-26 17:49:10,920] {app.py:41} INFO - Launching home page successful
+[2021-08-26 17:49:10,922] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 17:49:10] "GET / HTTP/1.1" 200 -
+[2021-08-26 18:03:33,566] {app.py:76} INFO - An existing article is retrieved. post_id - [%s], title - [%s]
+[2021-08-26 18:03:33,576] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 18:03:33] "GET /1 HTTP/1.1" 200 -
+[2021-08-26 18:05:49,888] {app.py:76} INFO - An existing article is retrieved. post_id - [%s], title - [%s]
+[2021-08-26 18:06:14,105] {<string>:1} INFO - An existing article is retrieved. post_id - [%d], title - [%s]
+[2021-08-26 18:06:22,978] {<string>:1} INFO - An existing article is retrieved. post_id - [%d], title - [%s]
+[2021-08-26 18:06:25,470] {<string>:1} INFO - An existing article is retrieved. post_id - [%d], title - [%s]
+[2021-08-26 18:06:29,758] {<string>:1} INFO - An existing article is retrieved. post_id - [%d], title - [%s]
+[2021-08-26 18:08:00,904] {<string>:1} INFO - An existing article is retrieved. post_id - 1 title - 2020 CNCF Annual Report
+[2021-08-26 18:08:04,489] {<string>:1} INFO - An existing article is retrieved. post_id - 1 title - 2020 CNCF Annual Report
+[2021-08-26 18:08:05,399] {<string>:1} INFO - An existing article is retrieved. post_id - 1 title - 2020 CNCF Annual Report
+[2021-08-26 18:08:07,221] {<string>:1} INFO - An existing article is retrieved. post_id - 1 title - 2020 CNCF Annual Report
+[2021-08-26 18:08:18,054] {<string>:1} INFO - An existing article is retrieved. post_id - 1 & Title - 2020 CNCF Annual Report
+[2021-08-26 18:08:19,873] {<string>:1} INFO - An existing article is retrieved. post_id - 1 & Title - 2020 CNCF Annual Report
+[2021-08-26 18:08:20,740] {<string>:1} INFO - An existing article is retrieved. post_id - 1 & Title - 2020 CNCF Annual Report
+[2021-08-26 18:08:42,628] {<string>:1} INFO - An existing article is retrieved. post_id=1 & Title=2020 CNCF Annual Report
+[2021-08-26 18:11:01,822] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-08-26 18:11:06,859] {app.py:76} INFO - An existing article is retrieved. post_id=1 & Title=2020 CNCF Annual Report
+[2021-08-26 18:11:06,871] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 18:11:06] "GET /1 HTTP/1.1" 200 -
+[2021-08-26 19:36:54,153] {app.py:41} INFO - Launching home page successful
+[2021-08-26 19:36:54,181] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:36:54] "GET / HTTP/1.1" 200 -
+[2021-08-26 19:37:06,176] {app.py:41} INFO - Launching home page successful
+[2021-08-26 19:37:06,177] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:37:06] "GET / HTTP/1.1" 200 -
+[2021-08-26 19:37:32,139] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:37:32] "GET /create HTTP/1.1" 200 -
+[2021-08-26 19:37:54,326] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:37:54] "POST /create HTTP/1.1" 302 -
+[2021-08-26 19:37:54,332] {app.py:41} INFO - Launching home page successful
+[2021-08-26 19:37:54,333] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:37:54] "GET / HTTP/1.1" 200 -
+[2021-08-26 19:38:14,805] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:38:14] "GET /create HTTP/1.1" 200 -
+[2021-08-26 19:38:26,936] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:38:26] "POST /create HTTP/1.1" 200 -
+[2021-08-26 19:43:47,510] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:43:47] "POST /create HTTP/1.1" 302 -
+[2021-08-26 19:43:47,516] {app.py:41} INFO - Launching home page successful
+[2021-08-26 19:43:47,518] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:43:47] "GET / HTTP/1.1" 200 -
+[2021-08-26 19:44:02,527] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:44:02] "GET /create HTTP/1.1" 200 -
+[2021-08-26 19:44:24,869] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:44:24] "POST /create HTTP/1.1" 302 -
+[2021-08-26 19:44:24,876] {app.py:41} INFO - Launching home page successful
+[2021-08-26 19:44:24,877] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:44:24] "GET / HTTP/1.1" 200 -
+[2021-08-26 19:44:43,935] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:44:43] "GET /create HTTP/1.1" 200 -
+[2021-08-26 19:44:49,348] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:44:49] "POST /create HTTP/1.1" 200 -
+[2021-08-26 19:45:04,467] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:45:04] "POST /create HTTP/1.1" 200 -
+[2021-08-26 19:45:05,432] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:45:05] "POST /create HTTP/1.1" 200 -
+[2021-08-26 19:45:11,221] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:45:11] "POST /create HTTP/1.1" 200 -
+[2021-08-26 19:45:58,718] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:45:58] "POST /create HTTP/1.1" 200 -
