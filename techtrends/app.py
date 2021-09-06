@@ -42,7 +42,7 @@ def index():
     return render_template('index.html', posts=posts)
 
 
-@app.route("/status")
+@app.route("/healthz")
 def status():
     response = app.response_class(
         response=json.dumps({"results": "Health - OK"}),
