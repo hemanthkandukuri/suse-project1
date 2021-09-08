@@ -1,0 +1,10 @@
+apiVersion: v1
+name: techtrends
+description: techtrends application - helm configuration
+keywords:
+- techtrends
+- helm-config
+version: 1.0.0
+maintainers:
+- name: hemanth kandukuri
+  email: hemanth.kandukuri@gmail.com
