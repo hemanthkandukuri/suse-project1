@@ -36,8 +36,7 @@ spec:
               port: {{ .Values.service.targetPort }}
             initialDelaySeconds: 5
             periodSeconds: 20
-          ports:
-            - containerPort: {{ .Values.ports.containerPort }}
+
           resources:
             requests:
               cpu: {{ .Values.resources.requests.CPU }}
