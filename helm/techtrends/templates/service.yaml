@@ -13,6 +13,6 @@ spec:
       targetPort: {{  .Values.service.targetPort }}
   selector:
     app: techtrends
-  type: {{  .Values.service.targetPort }}
+  type: {{  .Values.service.type }}
 status:
   loadBalancer: {}
