@@ -98,3 +98,30 @@
 [2021-08-26 19:45:05,432] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:45:05] "POST /create HTTP/1.1" 200 -
 [2021-08-26 19:45:11,221] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:45:11] "POST /create HTTP/1.1" 200 -
 [2021-08-26 19:45:58,718] {_internal.py:122} INFO - 127.0.0.1 - - [26/Aug/2021 19:45:58] "POST /create HTTP/1.1" 200 -
+[2021-09-08 22:13:18,627] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-09-08 22:13:25,312] {app.py:41} INFO - Launching home page successful
+[2021-09-08 22:13:25,326] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:13:25] "GET / HTTP/1.1" 200 -
+[2021-09-08 22:13:25,501] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:13:25] "GET /static/css/main.css HTTP/1.1" 200 -
+[2021-09-08 22:13:25,759] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:13:25] "GET /favicon.ico HTTP/1.1" 404 -
+[2021-09-08 22:13:28,459] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:13:28] "GET /status HTTP/1.1" 404 -
+[2021-09-08 22:13:29,646] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:13:29] "GET /status HTTP/1.1" 404 -
+[2021-09-08 22:13:47,963] {app.py:41} INFO - Launching home page successful
+[2021-09-08 22:13:47,964] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:13:47] "GET / HTTP/1.1" 200 -
+[2021-09-08 22:13:48,477] {app.py:69} INFO - Status request un-successful, DB/Table does not exists
+[2021-09-08 22:13:48,477] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:13:48] "GET /healthz HTTP/1.1" 500 -
+[2021-09-08 22:14:57,808] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-09-08 22:15:00,982] {app.py:54} ERROR - {}
+[2021-09-08 22:15:00,982] {app.py:70} ERROR - Status request un-successful, DB/Table does not exists
+[2021-09-08 22:15:00,983] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:15:00] "GET /healthz HTTP/1.1" 500 -
+[2021-09-08 22:15:22,369] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-09-08 22:16:15,389] {_internal.py:122} INFO -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+[2021-09-08 22:16:40,070] {app.py:63} INFO - Status request successful
+[2021-09-08 22:16:42,496] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:16:42] "GET /healthz HTTP/1.1" 200 -
+[2021-09-08 22:25:06,877] {app.py:54} ERROR - {}
+[2021-09-08 22:25:12,385] {app.py:70} ERROR - Status request un-successful, DB/Table does not exists
+[2021-09-08 22:25:12,390] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:25:12] "GET /healthz HTTP/1.1" 500 -
+[2021-09-08 22:25:39,182] {app.py:54} ERROR - {}
+[2021-09-08 22:25:39,183] {app.py:70} ERROR - Status request un-successful, DB/Table does not exists
+[2021-09-08 22:25:39,184] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:25:39] "GET /healthz HTTP/1.1" 500 -
+[2021-09-08 22:26:20,763] {app.py:63} INFO - Status request successful
+[2021-09-08 22:26:20,764] {_internal.py:122} INFO - 127.0.0.1 - - [08/Sep/2021 22:26:20] "GET /healthz HTTP/1.1" 200 -

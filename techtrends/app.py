@@ -44,12 +44,31 @@ def index():
 
 @app.route("/healthz")
 def status():
-    response = app.response_class(
-        response=json.dumps({"results": "Health - OK"}),
-        status=200,
-        mimetype='application/json'
-    )
-    app.logger.info('Status request successful')
+    try:
+        connection = get_db_connection()
+        connection.execute('SELECT * FROM posts LIMIT 1')
+        table_exists = True
+    except sqlite3.OperationalError as e:
+        if e.args[0].startswith('no such table'):
+            table_exists = False
+            app.logger.error(e.args[0])
+        else:
+            raise
+    if table_exists:
+        response = app.response_class(
+            response=json.dumps({"results": "Health - OK"}),
+            status=200,
+            mimetype='application/json'
+        )
+        app.logger.info('Status request successful')
+    else:
+        response = app.response_class(
+            response=json.dumps({"results": "ERROR - unhealthy"}),
+            status=500,
+            mimetype='application/json'
+        )
+        app.logger.error('Status request un-successful, DB (or) Table does not exists. '
+                         'Please run the init_db.py prior to execution.')
     return response
 
 
