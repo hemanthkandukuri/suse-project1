@@ -10,13 +10,6 @@ spec:
   ports:
     - port: {{  .Values.service.port }}
       protocol: {{  .Values.service.protocol }}
-      # {{ if PIPELINE }}
-      #  Do something
-      # {{ else if OTHER PIPELINE }}
-      #  Do something else
-      # {{ else }}
-      #  Default case
-      # {{ end }}
       {{ if .Values.service.targetPort }}
       targetPort: {{  .Values.service.targetPort }}
       {{ else }}
